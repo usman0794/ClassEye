@@ -1,0 +1,46 @@
+# Node / Frontend
+node_modules/
+dist/
+build/
+.next/
+.nuxt/
+
+# Python / FastAPI / PyTorch
+__pycache__/
+*.py[cod]
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# ML Model Weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+checkpoints/
+runs/
+wandb/
+
+# Data
+/data/
+/datasets/
+*.jsonl
+
+# Environment & Credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+secrets.json
+credentials.json
+
+# OS / IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/settings.json
+
